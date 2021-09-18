@@ -1,0 +1,418 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background: url("Wallpaper we bare bears ▪Pinterest▪ (Credits_ Adoro Morangos).jpg");
+	background-size: cover ;
+	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+}
+.row{
+	width: 1000px;
+	
+}
+.banner img{
+	width:100%;
+	
+	
+}
+.menu{
+	width:100%;
+	height:100px;
+	background:#FFCD67;
+	display: flex; 
+/*	justify-content: space-around*/
+}
+ion-icon {
+  color: #FFA400;
+  font-size: 70px;
+  padding-left: 50px
+}
+ion-icon:hover{
+	opacity: 0.6
+}
+.search ion-icon{
+  color: #FFA400;
+  font-size: 70px;
+  padding: 10px 150px ;
+/*margin: 100px*/
+}
+.nav{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+/*	justify-content: space-around;*/
+	text-align: center;
+	padding: 100px
+}
+.nav li{
+	margin-left:180px;
+	
+}
+.nav li a{
+	color:#FFA400;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 50px;
+	
+	
+}
+.nav li a:hover{
+	opacity: 0.6
+}
+.box{
+	display: flex;
+	justify-content: flex-end;
+	border-collapse: collapse;
+	border: none;
+}
+h1{
+	margin: 20px 50px ;
+	font-size: 100px;
+	color: #FFA400;
+	
+}
+.main{
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px 50px 50px 20px
+}
+.main a{
+	margin: 20px 50px 0 50px;
+	font-size: 25px;
+	text-decoration: none;
+	color:#FFA400;	
+	text-align: justify
+}
+.main a:hover{
+	opacity: 0.6
+}
+.section2{
+	background: #FFCD67;
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px;
+	font-family: 'Patrick Hand', cursive;
+}
+.s2{
+	margin: 0 0 70px;
+	
+}
+.hinh2 img{
+	width:100%;
+}
+.khung ul{
+	list-style: none;
+	margin: 0 100px;
+	text-align: center
+}
+.khung li a{
+	font-size: 30px;
+/*	text-decoration: none;*/
+	color: #FFA400;
+}
+.khung li a:hover{
+	opacity: 0.6
+}
+.khung{
+	width:300px;
+	height: 300px;
+}
+.grizz{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 100px 50px 100px;
+}
+.hinhgrizz img{
+	width:500px
+}
+.hinhgrizz{
+	margin: 0 100px 0 50px;
+	background: #FFCD67
+}
+
+.section3{
+	margin: 0 auto;
+	width: 80%
+}
+.hinhpanda img{
+	width: 500px
+}
+.panda{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 50px 50px 20px
+}
+.hinhpanda{
+	margin: 0 50px;
+/*	background: white*/
+	
+}
+
+.ice{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 50px 50px 20px
+}
+.hinhice{
+	margin: 0 50px;
+	background: #FFCD67
+}
+.hinhice img{
+	width: 500px
+}
+.hinhtron{
+	background: #969696;
+	border-radius: 10px;
+}
+
+.cast h2{
+	margin: 50px 80px 0;
+	font-size: 50px;
+	color: #FFA400;
+}
+/*section2*/
+
+
+
+.section3{
+	font-family: 'Patrick Hand', cursive;
+	background:  #FFCD67;
+}
+
+.cast2{
+	display: flex;
+	width:100%;
+	align-content: space-between;
+	padding: 20px;
+}
+
+.iicon ion-icon{
+	margin: -100px 1000px 100px;
+}
+.chloepark{
+	margin: 50px 20px 50px 90px
+}
+.hinhchloe{
+	margin: 100px
+}
+.chloepark li{
+	list-style: none;
+	text-decoration: none;
+	text-align: center
+}
+.chloepark a{
+	margin:  0 0 50px;
+	color: #FFA400;
+	font-size: 50px
+}
+.chloepark a:hover{
+	opacity: 0.6
+}
+.nomnom{
+	margin: 70px 55px 50px 95px
+}
+.hinhnomnom img{
+	width:80%;
+	margin: 100px 50px ;
+}
+.nomnom li{
+	list-style: none;
+	text-decoration: none;
+	text-align: center
+}
+.nomnom a{
+	margin: 0 ;
+	color: #FFA400;
+	font-size: 50px;
+}
+.nomnom a:hover{
+	opacity: 0.6
+}
+/*section3*/
+
+.section4{
+	width:80%;
+	margin: 0 auto;
+	background: black;
+	font-family: 'Patrick Hand', cursive;
+	padding: 0 0 50px 0;
+}
+.film{
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap
+}
+.p img{
+	width:500px;
+/*	padding: 20px 20px;*/
+	margin: 50px;
+}
+.chung{
+	display: table-column;
+}
+.watch{
+	display: flex;
+	heigh:50px;
+	width: 80%
+}
+.watch ion-icon{
+	margin: 0 30px 30px 30px;
+	color: white;
+	
+}
+.line{
+	background: white;
+	width: 100%;
+	height:1px
+}
+.tuychon ion-icon{
+	margin: 70px 520px;
+	color: white;
+}
+.section4 h1{
+	color: white;
+}
+
+/*section4*/
+
+.movie{
+	width: 80%;
+	margin: 0 auto;
+	background: #FFCD67;
+	padding: 100px 20px;
+}
+.hinhmovie img{
+	width:100%;
+}
+.content{
+	display: flex;
+	padding-top: 50px;
+	padding: 5px
+}
+.content video{
+	width:50%;
+	height:100%;
+}
+.content p{
+	font-size: 25px;
+	text-align:justify;
+	padding: 60px;
+	color: #FFA400;
+}
+h2{
+	margin: 50px 50px 0;
+	font-size: 50px;
+	color: #FFA400;
+	
+}
+.section5 h1{
+	margin: 20px 50px ;
+	font-size: 100px;
+	color: #FFA400;
+}
+.s5{
+	margin: 0 0 70px;
+}
+.tuychon2 ion-icon{
+	margin: 20px 520px 0;
+	color: #FFA400;
+}
+.icon ion-icon{
+	margin-left:400px
+	
+}
+/*section5*/
+
+.section6{
+	width: 80%;
+	margin: 0 auto;
+	
+	background:black;
+}
+.phimkhac{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+/*	background:black;*/
+	padding: 50px 0
+}
+.p1 img{
+	width: 250px;
+	border-radius: 50%
+}
+.hinhAdventureTime{
+	position: absolute;
+	
+}
+.hinhlamput{
+	position: absolute;
+	
+}
+.hinhben10{
+	position: absolute;
+	
+}
+.p1 ion-icon{
+	position: relative;
+	margin: 85px 45px;
+	color: white
+	
+}
+.section6 h1{
+	margin: 20px 50px ;
+	font-size: 100px;
+	color: white;
+}
+
+
+/*section6*/
+
+
+
+.section7{
+	width: 100%;
+	background: #FFCD67;
+	justify-content: center;
+	padding: 50px
+}
+.end{
+	display: flex;
+	margin: 100px
+	
+}
+.end a{
+	font-size: 30px;
+	text-align: center;
+	margin: 150px 200px 0 0;
+	color: #FFA400;
+	list-style: none;
+	padding-top: 50px
+}
+.end a:hover{
+	opacity: 0.6
+}
+.logocn img{
+	width: 150px;
+ 	margin: 0 100px 0 100px;
+}
+.endd{
+	display: flex;
+	justify-content: space-around;
+}
